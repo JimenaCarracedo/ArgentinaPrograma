@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
-import { UsersService } from "../user/user.service";
+import { UsersService } from 'src/app/user/user.service';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-login',
@@ -27,3 +27,4 @@ export class LoginComponent implements OnInit {
       });
     }
     };
+
